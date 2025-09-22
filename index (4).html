@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <tittle>Register</tittle>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="form-container">
+      <form id="registerform">
+        <input type="text" id="nama" placeholder="Masukkan Nama" required/>
+        <input type="email" id="email" placeholder="Masukkan Email" required/>
+        <input type="password" id="password" placeholder="Masukkan Password" required/>
+        <input type="date" id="tanggal" placeholder="Tanggal" required/>
+        
+        <label>Jenis Kelamin</label>
+        <div class="radio-group">
+          <input type="radio" nama="Laki-laki" value="Laki-laki" required/>
+          <label for="Laki-laki">Laki-laki</label>
+          <input type="radio" nama="Perempuan" value="Perempuan" required/>
+          <label for="Perempuan">Perempuan</label>
+        </div>
+        
+        <input type="text" id="tempat" placeholder="Tempat Lahir" required/>
+        <input type="number" id="no_telp" placeholder="No Telp" required/>
+        <textarea id="alamat" rows="8" cols="40" placeholder="Masukkan Alamat Lengkap" required></textarea>
+        
+        <input type="checkbox" id="setuju"/>
+        <label for="setuju">Anda Menyetujui Syarat dan Ketentuan</label>
+        
+        <a href="Login.html">Login</a>
+        <button type="submit">Buat Akun</button>
+      </form>
+    </div>
+    <table id="dataTable" border="1">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Email</th>
+          <th>Tanggal Lahir</th>
+          <th>Tempat Lahir</th>
+          <th>Jenis Kelamin</th>
+          <th>No Telp</th>
+          <th>Alamat</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+      <script type="script.js">
+        
+      </script>
+    </table>
+  </body>
+</html>
